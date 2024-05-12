@@ -15,7 +15,7 @@ public enum GameState
 }
 
 
-public class BoardManager : NetworkBehaviour    
+public class BoardManager : NetworkBehaviour
 {
 
     public enum PlayerTurn
@@ -25,7 +25,7 @@ public class BoardManager : NetworkBehaviour
     }
 
 
-    public static BoardManager Instance {  get; private set; }
+    public static BoardManager Instance { get; private set; }
 
 
     //Network Varibales 
